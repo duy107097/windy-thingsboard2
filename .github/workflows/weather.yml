@@ -3,7 +3,7 @@ name: Cap nhat thoi tiet 24/7
 on:
   schedule:
     # Tự động chạy mỗi 10 phút một lần, liên tục 24/7
-    - cron: '*/6 * * * *'
+    - cron: '*/10* * * *'
   workflow_dispatch: # Cho phép bấm chạy thủ công bất cứ lúc nào
 
 jobs:
